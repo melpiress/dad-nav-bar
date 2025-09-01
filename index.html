@@ -1,14 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navbar</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div></div>
-    
-    <script src="app.js"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Gatus</title>
+</head>
+<body>
+  <nav>
+    <div class="nav-center">
+      <div class="nav-header">
+        <img src="img/gatus_logo.svg" class="logo" alt="logo">
+      </div>
+
+      <ul class="links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+
+
+      <div class="toggle" id="toggleBtn">
+        <img src="img/dark_mode_moon.svg" id="moon_deactivated" alt="Lua">
+        <img src="img/circle_sun_light.svg" id= "sun_activated" alt="Sol">
+      </div>
+
+    </div>
+  </nav>
+
+  <section class="conteudo_site">
+    <div class="imagens_gatos">
+      <img src="img/kitties.svg">
+    </div>
+    <div class="text">
+      <p>
+        Os gatos são animais domésticos muito populares em todo o mundo, conhecidos por sua independência e personalidade única. Com uma grande variedade de raças, cores e padrões, eles se adaptam facilmente a diferentes ambientes, desde apartamentos pequenos até casas com quintais espaçosos. Sua curiosidade natural os leva a explorar cada canto do lar, escalando móveis e observando atentamente tudo ao redor.
+      </p>
+      <p>
+        Além de serem curiosos, os gatos possuem habilidades impressionantes, como agilidade, equilíbrio e sentidos muito apurados, especialmente visão e audição. Eles gostam de brincar e interagir com seus donos, mas sempre de maneira sutil, demonstrando afeto por meio de ronronados, carícias e até pequenas “perseguições” pelo ambiente. Cada gato tem sua própria personalidade, tornando cada convivência única e especial.
+      </p>
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
 </html>
