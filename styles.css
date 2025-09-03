@@ -65,12 +65,10 @@ nav {
   margin: 0 auto;
 }
 
-/* Logo */
 .logo {
   height: 50px;
 }
 
-/* Links (desktop) */
 .links {
   display: flex;
   gap: 2rem;
@@ -83,7 +81,6 @@ nav {
   font-weight: 500;
 }
 
-/* Toggle (ícones de sol e lua, ou hambúrguer) */
 .toggle {
   display: flex;
   gap: 0.5rem;
@@ -115,6 +112,18 @@ nav {
     border: none;
     font-size: 2rem;
     cursor: pointer;
+  }
+
+  .imagens_gatos {
+    display: none;
+  }
+
+  .imagens_gatos img {
+    display: none;
+  }
+
+  .text {
+    align-items: center;
   }
 }
 
@@ -192,3 +201,14 @@ nav {
 .dark_mode nav a {
   color: #FDEAEA;
 }
+
+.dark_mode .links {
+  color: #FDEAEA;
+  background: #373434;
+}
+
+.dark_mode .links li:hover {
+  color: #ffaaaa; 
+}
+
+
